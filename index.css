@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #239f85;
+}
+.navbar-brand{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.navbar-nav .nav-link {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    font-size: 1.12rem;
+    color: white;
+}
+.navbar-nav .nav-link:hover{
+    border: 2px solid #ff5d22;
+    border-radius: 10px;
+}
+.main{
+    overflow: auto;
+}
+.con{
+    min-height: 100vh;
+    display: flex;
+}
+.left-section{
+    background-image: url(Images/d3.jpg);
+    background-size: cover;
+    min-height: 100%;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+.left-content{
+    position: relative;
+    top: 40%;
+    width: 50%;
+}
+.left-content p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.left-content h1{
+
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight:600;
+        font-style: normal;
+}
+.btn1{
+    padding: 0.40rem 2rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff5d23;
+    border: none;
+}
+.bg-clr{
+    background-color: #eff2ef;
+}
+.content-abt .text-red{
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight:600;
+        font-style: normal;
+}
+.content-abt .para{
+    font-size: 18px;
+    font-weight: 500;
+}
+.content-abt p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn2{
+    padding: 0.40rem 2rem;
+    /* border-radius: 5px; */
+    color: white;
+    background-color: #ff5d23;
+    border: none;
+}
+.image-fluid{
+    height: 320px;
+    width: 330px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.content-abt{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.content-srv{
+    margin-left: 40px;
+}
+.content-srv .text-red{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+}
+.content-srv p {
+    font-size: 17px;
+}
+.srv-title{
+    font-weight: bold;
+}
+.srv-info{
+    font-size: 17px;
+}
+.cardio{
+   text-align: center;
+}
+.gallery-title{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    color: #239f85;
+    letter-spacing: 2px;
+}
+.img-fluid{
+    height: 20rem;
+    margin-top: 20px;
+}
+.Choose-us{
+    background-color: #eff2ef;
+}
+.image{
+    height: 320px;
+    width: 450px;
+}
+.gallery-section .text-red{
+    color: #239f85;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.gallery-section p{
+    font-size: 1.1rem;
+}
+.borders{
+    border: 1px solid #239f85;
+}
+.address{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.icon a i{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.icon{
+    font-size: 1.25rem;
+}
+.icons  a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    /* opacity: 1; */
+    padding: 0 5px;
+    display: inline-block;
+    transition: transform 0.5s;
+    /* color: #fff; */
+}
+.icons  a:hover{
+    transform: translateY(-5px);
+}
+.quick{
+    margin-top:30px ;
+    color: #ff5d23;
+}
+.links p{
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+.imp-contact{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 1.1rem;
+}
+.imp-contact h4{
+    color: #ff5d23;
+}
+.thnx{
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+}
